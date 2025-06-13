@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: helloworld
-          image: <your-dockerhub-username>/helloworld:latest
+          image: docker.io/1wangjingwei/helloworld:latest # ⬅️ 替换为你自己的 Docker 镜像
           ports:
             - containerPort: 8080
